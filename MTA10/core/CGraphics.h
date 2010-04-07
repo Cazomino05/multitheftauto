@@ -127,6 +127,10 @@ public:
                                                   float fRotation,
                                                   float fRotCenOffX,
                                                   float fRotCenOffY,
+                                                  float fStartX,
+                                                  float fStartY,
+                                                  float fEndX,
+                                                  float fEndY,
                                                   unsigned long ulColor,
                                                   bool bPostGUI );
 
@@ -264,6 +268,10 @@ private:
         float           fRotation;
         float           fRotCenOffX;
         float           fRotCenOffY;
+        float           fStartX;
+        float           fStartY;
+        float           fEndX;
+        float           fEndY;
         unsigned long   ulColor;
         bool            bRelativeUV;
     };
